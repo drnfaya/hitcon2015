@@ -1,0 +1,44 @@
+/* 這是自訂顏色、寬度等等地方的檔案 */
+
+html, body {
+    height:100%;
+    background-color: #000000;
+}
+
+.container {
+  background-color: #000000;
+  min-height: 100%;
+}
+
+h2 {
+  font-size: 13pt;
+  font-weight: bold;
+  line-height: 13px;
+}
+
+.css-table {
+  width: 99.9%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  display: table;
+  border: 1px solid #00c92f;
+  color: #ffffff;
+}
+ 
+ .css-table .thead{
+  display:table-header-group;
+ }
+
+ .css-table .tbody{
+  display:table-row-group;
+ }
+
+ .css-table .tr{
+  display:table-row;
+ }
+
+ .css-table .th,
+ .css-table .td{
+  display:table-cell;
+  padding: 15px;
+ }
