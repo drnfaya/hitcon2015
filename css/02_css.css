@@ -43,4 +43,39 @@ h2 {
   padding: 15px;
  }
 
- 
+ .contactblock {
+  text-align: center;
+  height: 250px;
+ }
+
+ .icon-list {
+  list-style: none;
+  text-align: center;
+  clear: both;
+  display: block;
+  margin-top: 90px;
+ }
+
+.icon-list li {
+  display: inline;
+  margin: 10px;
+ }
+
+.icon-list li a span{
+  position: relative;
+  top: 50px;
+  left: 0;
+ }
+
+
+#list-fb{
+  background-position: 0 -68px;
+}
+
+#list-blog{
+  background-position: 0 -136px;
+}
+
+#list-archive{
+  background-position: 0 -204px;
+}
